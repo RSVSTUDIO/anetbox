@@ -1,0 +1,9 @@
+{
+    "id": "Cron",
+    "name": "Cron",
+    "description": "Cron Core",
+    "keywords": [
+        "core"
+    ],
+    "version": "1.0"
+}

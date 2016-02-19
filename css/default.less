@@ -1,0 +1,139 @@
+.login-screen {
+    #create-account-form {
+        label {
+            color: #666;
+        }        
+    }
+}
+
+#topbar-second {
+    .nav {
+        li {            
+            &.empty {
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.disable-element {
+    opacity: 0.3;
+}
+
+.ajax-loader {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0.8;
+    background: url('/img/loader_big.gif') no-repeat center;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+.people-section-loader,
+.news-section-loader {
+    min-width:200px; 
+    height:55px; 
+    background:url('/img/page_loading.gif') no-repeat center;
+}
+
+.container {
+    .panel {
+        .panel-heading,
+        .table .table-heading {
+            font-weight: bold;
+            color: #555555;
+            font-size: 16px;
+        }
+    }
+}
+
+#topbar-first {
+    .topbar-brand {
+        .navbar-brand {                
+            background: url('/img/logo.png') no-repeat left center;
+            background-size: auto 46px;
+            display: block;
+            width: 150px;
+            height: 50px;
+            padding-left: 46px;
+        }
+    }
+}
+
+footer {
+    &.footer {
+        .container {
+            &.panel {
+                &.panel-footer {
+                    background-color: #515151;
+                    width: 99%;
+                    margin-bottom: 10px;
+                    .row, 
+                    .row a {
+                        color: #cccccc;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+body {
+    .container,
+    .modal-content {
+        a {
+            &:hover {
+                color:#4cd9c0;
+            }
+            
+            &,
+            &:hover,
+            &:active,
+            &:focus,
+            &.active {
+                text-decoration: underline;
+
+                &.list-group-item,
+                &.tab-index,
+                &.dropdown-toggle {
+                    text-decoration: none;
+                    color: #555555;
+                }
+                
+                &.btn,
+                &.glyphicon,
+                &.fa {
+                    
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        .dropdown-menu,
+        #profile-form-container .nav-tabs,
+        #inbox.media-list {
+            a {
+                &,
+                &:hover,
+                &:active,
+                &:focus {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.table {
+    tr {
+        > td,
+        > th {            
+            &.td-none-border {
+                border: none;
+            }
+        }
+    }
+}

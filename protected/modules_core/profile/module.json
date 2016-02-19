@@ -1,0 +1,9 @@
+{
+    "id": "profile",
+    "name": "Profile",
+    "description": "Profile Core",
+    "keywords": [
+        "core"
+    ],
+    "version": "1.0"
+}

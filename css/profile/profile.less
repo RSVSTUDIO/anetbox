@@ -1,0 +1,28 @@
+.container {
+    &.profile-section{
+        .panel {            
+            &.profile-section-areas {
+                .add-site,
+                .action-delete {
+                    cursor: pointer;
+                }
+            }
+            .edit-col {
+                > a.glyphicon {
+                    opacity: 0;
+                }
+                &:hover > a.glyphicon {
+                    opacity: 1;
+                }
+            }
+            &.profile-section-contact {
+                .action-friend {
+                    cursor: pointer;
+                    &.margin-left {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

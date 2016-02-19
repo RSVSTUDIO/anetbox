@@ -1,0 +1,20 @@
+.people-section-table{
+    .table {
+        &.table-none-border {
+            > thead,
+            > tbody,
+            > tfoot{
+                > tr {
+                    > th, 
+                    > td {
+                        border-top: none;
+                    }
+                }
+            }
+            .action-ban,
+            .action-friend {
+                cursor: pointer;
+            }
+        }
+    }
+}

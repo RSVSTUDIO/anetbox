@@ -1,0 +1,36 @@
+.set-language:hover {
+    outline: none !important;
+}
+.set-language {
+    opacity: 0.5;
+}
+.add-site,
+.login-link,
+.scroller,
+.password_toggle,
+.set-language {
+    cursor: pointer;
+}
+.set-language.active {
+    opacity: 1;
+    cursor: default;
+}
+
+#account-register-form .site-items .form-item {
+    margin-bottom: 5px;
+}
+
+#loginModal {
+    color: #999999;
+}
+#loginModal .errorMessage {
+    color: #ff0000;
+    opacity: 0.5;
+}
+#loginModal .form-control.wrong {
+    border: 1px solid #ff0000;
+}
+
+.container.block-5 {
+    min-height: 760px;
+}

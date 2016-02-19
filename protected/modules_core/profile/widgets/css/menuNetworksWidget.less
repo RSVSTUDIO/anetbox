@@ -1,0 +1,27 @@
+.networks-nav-container {
+    > .panel {        
+        &.panel-default {
+            .tabs-networks {
+                .tab-index {
+                    color: #555555;
+                }
+                .active {                  
+                    .tab-index {
+                        font-weight: bold;
+                    }
+                }
+                :not(.active) {           
+                    .tab-index {
+                        cursor: pointer;
+                    }
+                }
+            }
+            .list-group {
+                display: none;
+                &.show {
+                    display: block;
+                }
+            }
+        }
+    }
+}
